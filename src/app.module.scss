@@ -1,0 +1,26 @@
+.main {
+  width: 80%;
+  margin: 5.8rem auto;
+  background-color: #fff;
+  border: 1px dashed var(--color-surface-high);
+  border-radius: 8px;
+  color: var(--color-surface-x-high);
+  padding: 1.875rem;
+}
+  
+.inputsBlock {
+  display: flex;
+  flex-wrap: wrap;
+}
+.input {
+  margin: 1.5rem 1.5rem 1.5rem 0;
+}
+.title {
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'On Air';
+  src: url('./assets/fonts/PPAir-SemiBoldMono-BF64a4d480f20b2.ttf') format('ttf');
+  font-weight: bold;
+}
