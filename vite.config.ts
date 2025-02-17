@@ -5,6 +5,6 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   root: './src',
   plugins: [react()],
-  base: '/<my-text-input>/'
+  base: "/my-text-input/"
 })
 

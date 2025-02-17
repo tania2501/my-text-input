@@ -1,5 +1,6 @@
 {
   "name": "my-text-input",
+  "homepage": "https://tania2501.github.io/my-text-input",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,7 +12,7 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "predeploy": "pnpm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "clsx": "^2.1.1",
