@@ -20,7 +20,25 @@
 }
 
 @font-face {
-  font-family: 'On Air';
-  src: url('./assets/fonts/PPAir-SemiBoldMono-BF64a4d480f20b2.ttf') format('ttf');
-  font-weight: bold;
+  font-family: 'PP Air ExtraLight';
+  src: url('./assets/fonts/PPAir-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Air SemiBold Mono';
+  src: url('./assets/fonts/PPAir-SemiBoldMono.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Air';
+  src: url('./assets/fonts/PPAir-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
